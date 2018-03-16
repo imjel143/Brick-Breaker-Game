@@ -1,0 +1,20 @@
+body{
+background-color:black;
+}
+ 
+#myCanvas
+{
+    display: block;
+    margin: 0 auto;
+    margin-top:10px;
+    background-image: url("background.jpg");
+    border-radius: 10px;
+    border-bottom:35px solid #C2AA83;
+    box-shadow: 3px 3px 0px #888888;
+    padding-top:25px;
+}
+
+		@media screen and (max-width:450px){
+			#myCanvas{
+					width:100%;}
+		}
